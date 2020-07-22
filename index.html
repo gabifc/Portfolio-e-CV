@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>({ GabiFernandes: })</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--------Navbar Fixed--------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-roxo fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white font-weight-light" href="https://www.linkedin.com/in/gabriellefernandesc/"
+                target="_blank">
+                ({ <span><b>Gabi</b></span>Fernandes: })</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop"
+                aria-controls="menudesktop" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  justify-content-end font-weight-light" id="menudesktop">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#curriculo">CV</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#artigos">Artigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--------Carousel--------->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/crachas 2019.jpeg" class="d-block w-100 foto_carousel" alt="foto diversos crachás">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/portifolio foto.JPG" class="d-block w-100 foto_carousel"
+                    alt="imagem de código com a foto da Gabrielle">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!----------H1 e Links---------->
+    <section id="contato">
+        <div class="container h1_paragrafo">
+            <h1 class="font-weight-bold m-3">Gabrielle Fernandes de Campos</h1>
+            <h2 class="text-center font-weight-light font-size font-italic">Desenvolvedora Full Stack</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img class="foto-gabi text-center rounded-circle" src="img/Gabrielle - Fernandes.jpg" alt="Foto Gabrielle">
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-md-around text-center p-5">
+            <!--Conteúdo flex em coluna e em tela media passa para linha com justificado espaço em volta texto centralizado e padding 5 -->
+            <div>
+                <i class="fab fa-github-square fa-2x p-2"></i>
+                <a class="navbar-brand link-color" href="https://github.com/gabifc" target="_blank">
+                    GitHub</a>
+            </div>
+            <div>
+                <i class="fab fa-linkedin fa-2x p-2"></i>
+                <a class="navbar-brand link-color" href="https://www.linkedin.com/in/gabriellefernandesc/"
+                    target="_blank">
+                    LinkedIn</a>
+            </div>
+            <div>
+                <i class="fas fa-envelope-square fa-2x p-2"></i>
+                <a href="mailto:gabriellefto@gmail.com" class="navbar-brand link-color"> E-mail</a>
+            </div>
+            <div>
+                <i class="fab fa-whatsapp-square fa-2x p-2"></i>
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511964961050" class="navbar-brand link-color"
+                    target="_blank"> Whatsapp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Habilidades e Sobre-->
+    <section id="sobre"
+        class="container rounded bg-roxo d-flex flex-column flex-lg-row justify-content-lg-around text-white">
+        <!-- como fiz mobile first começa em coluna flex e quando chegar em tela grande 
+        fica em linha flex-lg-row e faz o justify content com espaços ao redor -->
+
+        <div class="habilidades w-100 text-center p-4">
+            <!-- w-50 quer dizer que esta div irá ocupar 50% do espaço da tela e a div sobre outros 50%-->
+
+            <h2 class="text-center  p-4">Habilidades</h2>
+
+            <!-- Habilidades icones-->
+            <div class="container d-flex justify-content-center">
+
+                <div>
+                    <div class="text-center col">
+                        <i class="fab fa-sass fa-2x cor-habilidades"></i>
+                        <p>Sass</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fab fa-bootstrap fa-2x cor-habilidades"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fab fa-html5 fa-2x cor-habilidades"></i>
+                        <p>HTML</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="text-center col">
+                        <i class="fab fa-css3-alt fa-2x cor-habilidades"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fab fab fa-react fa-2x cor-habilidades"></i>
+                        <p>React</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fab fa-git-alt fa-2x cor-habilidades"></i>
+                        <p>Git</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="text-center col">
+                        <i class="fab fa-js fa-2x cor-habilidades"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fas fa-book fa-2x cor-habilidades"></i>
+                        <p>JQuery</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fas fa-tasks fa-2x cor-habilidades"></i>
+                        <p>Scrum</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="text-center col">
+                        <i class="fas fa-database fa-2x cor-habilidades"></i>
+                        <p>SQLite</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fab fa-node fa-2x cor-habilidades"></i>
+
+                        <p>Node</p>
+                    </div>
+                    <div class="text-center col">
+                        <i class="fab fa-java fa-2x cor-habilidades"></i>
+                        <!-- <i class="fas fa-tasks "></i> -->
+                        <p>Java</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Sobre H2 e Paragráfos-->
+        <div class="sobre w-100 text-center p-4 mr-5">
+            <h2 class="m-4">Sobre</h2>
+            <article>
+                <p>Empreendedora migrando para Tecnologia. Formada em Terapia Ocupacional com experiência em inclusão.
+                    Empreendedora social, fundei a startup
+                    CollabTour Volunteer Travel incubada pela Fundação Telefônica em 2019.
+                    Venho unindo meu know-how em desenvolvimento de negócios, análise de atividades, fazer humano e
+                    acessibilidade
+                    à tecnologia analisando dados e desenvolvendo produtos e serviços.
+                </p>
+                <p><b>Conhecimento em:</b> Análise de dados, Empreendedorismo Digital, UX Strategy e Marketing Digital.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!--CURRICULO-->
+    <section id="curriculo" class="container rounded d-flex flex-column flex-lg-row justify-content-lg-around mt-5 cv">
+        <div>
+            <div class="w-100 text-center">
+                <h2 class="text-center p-5">Currículo</h2>
+            </div>
+            <div>
+                <h3 class="text-center w-100 p-3 bg-roxo text-white mb-4 rounded"> Formação Acadêmica </h3>
+                <ul class="text-center w-100 p-2">
+                    <li class="text-center w-100 p-2"><span><b>Big Data e Inteligência
+                                Analítica</b></span>-
+                        Anhembi Morumbi - Cursando 1º Semestre</li>
+                    <li class="text-center w-100 p-2"><span><b>Pós Graduação em Terapia da Mão</b></span>- USP -
+                        Concluído
+                        em 2015</li>
+                    <li class="text-center w-100 p-2 mb-3"><span><b>Bacharel em Terapia Ocupacional</b></span>- Centro
+                        Universitário São Camilo - Concluído em 2013</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-center w-100 p-3 bg-roxo text-white mb-4 rounded">Experiência Profissional</h3>
+                <ul class="text-center w-100 p-2">
+
+                    <li class="text-center w-100 p-2">
+                        <h5><span><b>CollabTour Volunteer Travel and Social Impact</b></h5>
+                        <p>jun/2018 - abr/2020 &#9656 <span><b>Owner & Founder</b></span></p>
+                        <p class="ml-5 mr-5"><span><b>Atividades:</b></span> modelagem do negócio com base nos
+                            dados; estratégia e execução do marketing digital como e-mail marketing, gestão de
+                            redes sociais, whatsapp marketing; gestão financeira,
+                            desenvolvimento de parceria com ONGs, relacionamento com clientes (vendas e
+                            pesquisas UX). A startup participou da Incubação da Fundação Telefônica Vivo e
+                            recebeu investimento e apoio durante o ano de 2019.</p>
+                    </li>
+
+
+                    <li class="text-center w-100 p-2">
+                        <h5><span><b>Novabase S.A - Lisboa/PT</b></h5>
+                        <p>ago/2016 - dez/2017 &#9656 <span><b>Analista de Cadastro KYC</b></span></p>
+                        <p class="ml-5 mr-5"><span><b>Atividades:</b></span> abertura e manutenção de contas do
+                            Banco CTT S.A. Inserção de dados junto as plataformas do banco (PACM, BankFusion
+                            Essence platform, DSX SQL, WinCap, Sharepoint e Fircosoft); análise e validação dos
+                            documentos apresentados para efeito de abertura de contas; mapas em Excel;
+                            tratamento de correspondências. Análise de procurações, atas e sociedades
+                            comerciais, submissão de documentos para legal e compliance. </p>
+                    </li>
+
+                    <li class="text-center w-100 p-2">
+                        <h5><span><b>SPDM - Associação Paulista para o Desenvolvimento da Medicina</b></h5>
+                        <p>mar/2014 - jun/2015 &#9656 <span><b>Supervisora Técnica</b></span></p>
+                        <p class="ml-5 mr-5"><span><b>Atividades:</b></span> em parceria com professores e
+                            coordenadores pedagógicos era responsável pelo desenvolvimento de programas para
+                            estimulação da saúde e qualidade de vida que favoreçam a inclusão escolar dos alunos
+                            PCDs da rede pública de ensino. Chefe imediata e responsável pela formação e conduta
+                            de cuidados de 62 cuidadoras das EMEIs e EMEFs de SP.
+                            Também era responsável pela formação dos Agentes Técnicos Escolares da prefeitura de
+                            SP, ministrando cursos sobre posicionamento, órteses, anatomia, patologias, sondas
+                            etc. </p>
+                    </li>
+                </ul>
+                <h3 class="text-center w-100 p-3 bg-roxo text-white mb-5 rounded">Qualificações e atividades
+                    complementares</h3>
+                <div class="container text-center d-flex flex-column justify-content-sm-around">
+                    <div class="row">
+                        <div class="col-sm">
+                            <ul>
+                                <li><span><b> &#9656 Fundamentos de programação orientada a objetos
+                                            com JAVA</b></span></li>
+                                <p>Dell Lead</p>
+
+                                <li><span><b>&#9656 Bootcamp Front-end</b></span></li>
+                                <p>{reprograma}</p>
+                                <li><span><b>&#9656 Desenvolvimento avançado com JavaScript ES6</b></span></li>
+                                <p>Digital Innovation One</p>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <li><span><b>&#9656 Imersão Starter: JS, Node, ReactJS e Native</b></span></li>
+                            <p>Rocketseat </p>
+                            <li><span><b>&#9656 UX Strategy </b></span></li>
+                            <p>Mergo UX </p>
+                            <li><span><b>&#9656 Git e GitHub - comandos essenciais para trabalho em equipe</b></span>
+                            </li>
+                            <p>Digital Innovation One </p>
+                        </div>
+                        <div class="col-sm mb-4">
+                            <li><span><b>&#9656 Imersão para o desenvolvimento de empreendedores e negócios</b></span>
+                            </li>
+                            <p>Fundação Telefônica Vivo</p>
+                            <li><span><b>&#9656 Intercâmbios:</b></span></li>
+                            <p>Chile(2018) e Espanha(2014 e 2017)</p>
+
+                            <li class=""><span><b>&#9656 Idiomas:</b></span></li>
+                            <p><span><b>Espanhol: </b></span>avançado<span><b> </br>Inglês:
+                                    </b></span>intermediário(instrumental)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----- Cards e Modal --->
+    <section id="portfolio" class="d-flex flex-column justify-content-sm-around mb-5">
+
+        <div>
+            <div class="w-100 text-center p-5">
+                <h2 class="text-center">Portfólio</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+
+            <!--Card 01-->
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/Design sem nome.png" alt="print da tela">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">PhoneJa-Intranet 📲 Aplicação Full MVC </h5>
+                        <p class="card-text">💻Tecnologias utilizadas: HTML, CSS, Javascript, Consumo de API do IBGE,
+                            Node, Nodemon, Nunjucks, Express e banco de dados SQLite3.</p>
+                        <button type="button" class="btn bg-roxo border-0 text-white" data-toggle="modal"
+                            data-target="#Modal01">
+                            <!--alterado o nome # do data-target(alvo quando clica) e o id da div modal para não dar conflito-->
+                            Veja mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 01 -->
+            <div class="modal fade" id="Modal01" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">PhoneJa-Intranet 📲</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <video width="420" height="340" controls="controls" autoplay="autoplay">
+                                <source src="videos/Loja PhoneJa.mp4" type="video/mp4">
+                                <object data="" width="320" height="240">
+                                    <embed width="320" height="240" src="videos/Loja PhoneJa.mp4">
+                                </object>
+                            </video>
+                            <h6>Proposta 💡</h6>
+                            <p>Esta aplicação foi desenvolvido com a finalidade de treino na utilização de banco de
+                                dados. As funcionalidades oferecidas são cadastro de clientes e vendas com recuperação
+                                dos dados cadastrados através do CPF. </p>
+                            <p>Importante: neste caso foi utilizado o SQLite somente para fins de aprendizado e para que
+                                o cliente possa ter um prototipo navegável e entenda o funcionamento de uma aplicação
+                                com banco de dados. Como a aplicação trabalha com dados sensíveis não recomendamendo a
+                                utilização do SQlite </p>
+
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <!--substituir o segundo button por um a e colocar um href com link externo-->
+                            <a href="https://github.com/gabifc/PhoneJa-Intranet" target="_blank"
+                                class="btn bg-roxo border-0 text-white">Acessar código no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 02-->
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/Design sem nome (1).png" alt="print da tela do projeto">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ecoleta - Marketplace ♻️</br>Aplicação Full MVC </h5>
+                        <p class="card-text">💻Tecnologias utilizadas: HTML, CSS, Javascript, Consumo de API do IBGE,
+                            Node, Nodemon, Nunjucks, Express e banco de dados SQLite3.</p>
+                        <button type="button" class="btn bg-roxo border-0 text-white m-auto" data-toggle="modal"
+                            data-target="#Modal02">
+                            Veja mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 02 -->
+            <div class="modal fade" id="Modal02" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Ecoleta - Marketplace ♻️</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <video width="420" height="340" controls="controls" autoplay="autoplay">
+                                <source src="videos/Ecoleta Marketplace.mp4" type="video/mp4">
+                                <object data="" width="320" height="240">
+                                    <embed width="320" height="240" src="videos/Ecoleta Marketplace.mp4">
+                                </object>
+                            </video>
+
+                            <h6>Proposta 💡</h6>
+                            Marketplace de locais de coleta seletiva que permite ao usuário cadastrar e buscar por
+                            cidade pontos de reciclagem de diferentes tipos de resíduos.</p>
+                            <p>Aplicação desenvolvida durante o Next Level Week da Rocketseat</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="https://github.com/gabifc/Ecoleta-Marketplace" target="_blank"
+                                class="btn bg-roxo border-0 text-white">Acessar o GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 03-->
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-px" src="img/Design sem nome (2).png" alt="print da tela">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Funções Javascript & Cats 😺 </br> Projeto de Estudos JS</h5>
+                        <p class="card-text">💻Tecnologias utilizadas:</br> HTML, </br> CSS e </br>Javascript.</p>
+                        <button type="button" class="btn bg-roxo border-0 text-white" data-toggle="modal"
+                            data-target="#Modal03">
+                            Veja mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 03 -->
+            <div class="modal fade" id="Modal03" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Funções Javascript & Cats 😺</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-3">
+
+                            <video width="420" height="340" controls="controls" autoplay="autoplay">
+                                <source src="videos/Funções JavaScript.mp4" type="video/mp4">
+                                <object data="" width="320" height="240">
+                                    <embed width="320" height="240" src="videos/Funções JavaScript.mp4">
+                                </object>
+                            </video>
+
+                            <h6>Proposta 💡</h6>
+                            <p>Projeto de Estudo para o desenvolvimento de programação com funções em Javascript. Este
+                                projeto contém: ciclos, arrays e condicionais.</p>
+                            <p>Site responsivo com ancoragem, efeitos nos botões, conteúdo oculto para ser acionado com
+                                botão. Aqui o objetivo não foi trabalhar Front-end, mas sim dominar funções em JS. </p>
+                            <p>Gatos foi um toque pessoal ;) </p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="https://funcoes-js.netlify.app/" target="_blank"
+                                class="btn bg-roxo border-0 text-white">
+                                Acessar deploy</a>
+                            <a href="https://github.com/gabifc/Funcoes-JavaScript" target="_blank"
+                                class="btn bg-roxo border-0 text-white">
+                                Acessar GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+    <section id="portfolio" class="d-flex flex-column justify-content-sm-around mb-5">
+
+        <div class="row justify-content-around">
+
+            <!--Card 4-->
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/Design sem nome (3).png" alt="print da tela">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Consumo de API- ReactJS e Axios ⚛️</h5>
+                        <p class="card-text">💻Tecnologias utilizadas: ReactJS, CSS e Axios.</p>
+                        <button type="button" class="btn bg-roxo border-0 text-white" data-toggle="modal"
+                            data-target="#Modal04">
+                            Veja mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 04 -->
+            <div class="modal fade" id="Modal04" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Consumo de API- ReactJS e Axios ⚛️</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <video width="420" height="340" controls="controls" autoplay="autoplay">
+                                <source src="videos/React App.mp4" type="video/mp4">
+                                <object data="" width="320" height="240">
+                                    <embed width="320" height="240" src="videos/React App.mp4">
+                                </object>
+                            </video>
+                            <h6>Proposta 💡</h6>
+                            <p>Atividade de estudo Bootcamp Reprograma </p>
+                            <p>Consumo de API hospedada no Heroku com Axios </p>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="https://github.com/gabifc/Consumo-de-API-com-ReactJS" target="_blank"
+                                class="btn bg-roxo border-0 text-white">Acessar código no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 05-->
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/Design sem nome (4).png" alt="print da tela do projeto">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">To Do List 📝</br> Javascript </h5>
+                        <p class="card-text">💻Tecnologias utilizadas: HTML, CSS e Javascript.</p>
+                        <button type="button" class="btn bg-roxo border-0 text-white m-auto" data-toggle="modal"
+                            data-target="#Modal05">
+                            Veja mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 05 -->
+            <div class="modal fade" id="Modal05" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">To do List JS 📝</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video width="420" height="340" controls="controls" autoplay="autoplay">
+                                <source src="videos/ToDo List.mp4" type="video/mp4">
+                                <object data="" width="320" height="240">
+                                    <embed width="320" height="240" src="videos/ToDo List.mp4">
+                                </object>
+                            </video>
+                            <h6>Proposta 💡</h6>
+                            <p>Projeto do Bootcamp Front-end Reprograma</p>
+                            <p>Criar uma lista de tarefas / To Do List utilizando javascript, seguindo os requisitos
+                                descritos abaixo.
+                                Não é permitido o uso de Jquery ou nenhuma outra biblioteca/framework.
+                                O html e css serão disponibilizados prontos.</p>
+                            <p>Requisitos:</p>
+                            <p>- Adicionar itens na lista</p>
+                            <p>- itens concluídos individualmente</p>
+                            <p>- Excluir itens individualmente</p>
+                            <p>- Validar campo de texto para não entrar itens vazios</p>
+                            <p>- Limpar campo de texto depois que insere o item na lista</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="https://todolist-javascript.netlify.app" target="_blank"
+                                class="btn bg-roxo border-0 text-white">Acessar o deploy</a>
+                            <a href="https://github.com/gabifc/To-do-list" target="_blank"
+                                class="btn bg-roxo border-0 text-white">Acessar GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 06-->
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-px" src="img/Design sem nome (7).png" alt="print da home do site">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projeto Gede Fem Consultoria 📊</h5>
+                        <p class="card-text">💻Tecnologias utilizadas: HTML, CSS e Bootstrap.</p>
+                        <button type="button" class="btn bg-roxo border-0 text-white" data-toggle="modal"
+                            data-target="#Modal06">
+                            Veja mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 06 -->
+            <div class="modal fade" id="Modal06" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Projeto Gede Fem Consultoria 📊</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-3">
+                            <img class="card-img-top img-px" src="img/Design sem nome (8).png"
+                                alt="montagem de fotos com a versão desktop do site e mobile">
+                            <h6>Proposta 💡</h6>
+                            <p>Projeto com clientes reais Reprograma.</p>
+                            <p>Recebemos o design e executamos o código.</p>
+                            <p>Fiquei responsável pela página contato e estrutura do projeto no Trelo.</p>
+                            <p>O site é responsivo e para o fomulário foi utilizado o Formspree. Testei o envio de dados
+                                do formulário com Repl.it</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="https://github.com/gabifc/T9-projeto-gede-fem-consultoria/tree/contatos-gabi/contato"
+                                target="_blank" class="btn bg-roxo border-0 text-white">
+                                Acessar GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--ARIGOS-->
+    <section id="artigos" class="text-center d-flex flex-column justify-content-sm-around">
+        <h2 class="text-center mb-5">Artigos</h2>
+
+        <div class="row justify-content-around">
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/ART2.PNG" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Os 4 paradigmas da assistência às pessoas com deficiência: da exclusão à inclusão.</h5>
+                        <p class="card-text">Ao decorrer do tempo a relação da sociedade com as pessoas com deficiência (PCDs) foi se modificando, tanto as definições filosóficas quanto às atitudes que permeiam as ações..</p>
+                        <a href="https://medium.com/@gabifernandes_74906/os-4-paradigmas-da-assist%C3%AAncia-%C3%A0s-pessoas-com-defici%C3%AAncia-da-exclus%C3%A3o-%C3%A0-inclus%C3%A3o-18b7c39a5b28" target="_blank" class="btn bg-roxo border-0 text-white">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/art1.PNG" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando barreiras, acessibilidade e design universal</h5>
+                        <p class="card-text">Quando locais, produtos e serviços são construídos sem considerar características da população geral, cada vez menos pessoas utilizarão esses espaços, produtos e serviços. Vamos falar sobre desing universal?</p>
+                        <a href="https://medium.com/@gabifernandes_74906/explorando-barreiras-acessibilidade-e-design-universal-dc819a504f7c" target="_blank" class="btn bg-roxo border-0 text-white">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="bg-roxo text-white text-center p-2 m-0 font-weight-light">
+            <p class="mt-2">Desenvolvido com <span>&#10084</span> e Bootstrap por Gabrielle Fernandes ago/2020</p>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
